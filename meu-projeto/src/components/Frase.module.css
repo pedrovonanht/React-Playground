@@ -1,0 +1,8 @@
+.frase_container {
+  background-color: #3333;
+  border: 1px solid black;
+}
+
+.frase_text {
+  font-style: italic;
+}
