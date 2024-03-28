@@ -7,7 +7,7 @@ function Condicional() {
 
   function enviarEmail(e) {
     e.preventDefault();
-    if (email.includes("@")) {
+    if (email && email.includes("@")) {
       setErrorMensage();
       setUserEmail(email);
     } else {
