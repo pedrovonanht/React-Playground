@@ -1,9 +1,9 @@
-import styles from "./Frase.module.css";
+import style from "./Frase.module.css";
 
 function Frase() {
   return (
-    <div className={styles.frase_container}>
-      <p className={styles.frase_text}>Aqui temos uma frase, e lembre-se tudo no React é um componente!</p>
+    <div className={style.frase_container}>
+      <p className={style.frase_text}>Aqui temos uma frase, e lembre-se tudo no React é um componente!</p>
     </div>
   );
 }
